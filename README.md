@@ -10,9 +10,9 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **1** | **26** | **1** |
+| **2** | **3** | **9** | **187** | **2** |
 
-*Last synced: 2026-03-21*
+*Last synced: 2026-07-02*
 
 </div>
 
@@ -50,12 +50,23 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 
 ## Browse by Category
 
+### Agents
+
+- [**Board Update Builder**](agents/board-update-1779868139797/) *(workspace)* -8 skills -by Yong
+- [**Commercial Lease Analyst**](agents/lease-analyst/) *(workspace)* -4 skills -by Yong
+- [**Content Calendar Operator**](agents/content-cal-op-1779866531170/) *(workspace)* -5 skills -by Yong
+- [**Invoice Chaser**](agents/invoice-chaser-1779867688902/) *(workspace)* -7 skills -by Yong
+- [**Kavela**](agents/kavela-workspace/) *(workspace)* -92 skills -by Yong
+- [**Reservations Concierge**](agents/reservations-concierge/) *(workspace)* -3 skills -by Yong
+- [**Test Agent**](agents/test-agent-e2e/) *(workspace)* -5 skills -by Crystara
+- [**W8 Publish Test**](agents/w8-publish-test/) *(workspace)* -4 skills -by Yong
+
 ### Docs
 
 - [**Kavela Frontend**](docs/kavela-frontend/) *(group)* -5 skills -by Yong
 - [**Kavela Remotion**](docs/kavela-remotion/) *(group)* -5 skills -by Yong
 - [**Motion Graphics Playbook**](docs/motion-graphics-playbook/) *(group)* -5 skills -by Yong
-- [**Supra Agent**](docs/supra-agent/) *(workspace)* -9 skills -by Yong
+- [**Supra Agent**](docs/supra-agent/) *(workspace)* -42 skills -by Yong
 
 ### Engineering
 
