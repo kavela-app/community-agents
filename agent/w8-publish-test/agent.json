@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "kavela.agent",
-  "exportedAt": "2026-07-03T02:33:14.132Z",
+  "exportedAt": "2026-07-03T02:34:39.749Z",
   "sourceSlug": "w8-publish-test",
-  "sourceVersion": "1.0.3",
+  "sourceVersion": "1.0.4",
   "portableConfig": {
     "agent": {
       "name": "W8 Publish Test",
