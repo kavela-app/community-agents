@@ -10,9 +10,9 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **9** | **185** | **2** |
+| **2** | **3** | **10** | **185** | **2** |
 
-*Last synced: 2026-07-03*
+*Last synced: 2026-07-04*
 
 </div>
 
@@ -59,6 +59,7 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 - [**Kavela**](agents/kavela-workspace/) *(workspace)* -92 skills -by Yong
 - [**Reservations Concierge**](agents/reservations-concierge/) *(workspace)* -3 skills -by Yong
 - [**Test Agent**](agents/test-agent-e2e/) *(workspace)* -5 skills -by Crystara
+- [**Theta Sync Test**](agents/theta-sync-test-1783147925/) *(workspace)* -0 skills -by Yong
 - [**W8 Publish Test**](agents/w8-publish-test/) *(workspace)* -2 skills -by Yong
 
 ### Docs

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "kind": "kavela.agent",
+  "exportedAt": "2026-07-04T06:52:41.471Z",
+  "sourceSlug": "theta-sync-test-1783147925",
+  "sourceVersion": "1.0.0",
+  "portableConfig": {
+    "agent": {
+      "name": "Theta Sync Test",
+      "description": "Throwaway agent to validate the community-agents GitHub sync on publish.",
+      "shortDescription": "Sync validation",
+      "defaultModel": null,
+      "allowedModels": null,
+      "searchConfig": {
+        "max_results": 5,
+        "max_candidates": 30,
+        "elbow_detection": true,
+        "min_relevance_threshold": 60,
+        "skill_fetch_instructions": ""
+      },
+      "enabledTools": [
+        "check_context",
+        "get_skill",
+        "search_skills"
+      ],
+      "revealSkillContent": false,
+      "revealRequiresPurchase": true,
+      "recommendedQueries": [
+        "Hello, respond if you can hear me",
+        "Just confirming the sync worked",
+        "Reply with 'success' if online"
+      ],
+      "searchCreditCost": "1.0000",
+      "creatorMarkup": "0.0000"
+    },
+    "systemPrompt": {
+      "content": "You are a helpful test agent for validating open-source sync."
+    },
+    "skills": [],
+    "groups": [],
+    "tools": []
+  },
+  "connectionRequirements": []
+}
