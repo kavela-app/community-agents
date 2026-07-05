@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "kind": "kavela.agent",
+  "exportedAt": "2026-07-05T02:54:27.938Z",
+  "sourceSlug": "theta-oss-1783219884",
+  "sourceVersion": "1.0.0",
+  "portableConfig": {
+    "agent": {
+      "name": "Theta OSS Test",
+      "description": "",
+      "shortDescription": "E2E open-source license test agent",
+      "defaultModel": null,
+      "allowedModels": null,
+      "searchConfig": {
+        "max_results": 5,
+        "max_candidates": 30,
+        "elbow_detection": true,
+        "min_relevance_threshold": 60,
+        "skill_fetch_instructions": ""
+      },
+      "enabledTools": [
+        "check_context",
+        "get_skill",
+        "search_skills"
+      ],
+      "revealSkillContent": false,
+      "revealRequiresPurchase": true,
+      "recommendedQueries": [
+        "Does my project need a commercial license?",
+        "What license should I use for my open-source project?",
+        "Can I use this MIT-licensed code in my proprietary app?"
+      ],
+      "searchCreditCost": "1.0000",
+      "creatorMarkup": "0.0000",
+      "license": "Apache-2.0"
+    },
+    "systemPrompt": {
+      "content": "You are a friendly test agent that explains open-source licensing."
+    },
+    "skills": [],
+    "groups": [],
+    "tools": []
+  },
+  "connectionRequirements": []
+}
