@@ -10,7 +10,7 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **12** | **186** | **2** |
+| **2** | **3** | **13** | **187** | **2** |
 
 *Last synced: 2026-07-05*
 
@@ -63,6 +63,7 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 - [**Theta OSS Test**](agents/theta-oss-1783219884/) *(workspace)* -0 skills -by Yong
 - [**Theta Sync Test**](agents/theta-sync-test-1783147925/) *(workspace)* -0 skills -by Yong
 - [**W8 Publish Test**](agents/w8-publish-test/) *(workspace)* -2 skills -by Yong
+- [**Weather Briefer**](agents/weather-briefer/) *(workspace)* -1 skills -by Yong
 
 ### Docs
 

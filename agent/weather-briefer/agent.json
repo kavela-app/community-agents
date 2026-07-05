@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "kind": "kavela.agent",
+  "exportedAt": "2026-07-05T10:28:33.921Z",
+  "sourceSlug": "weather-briefer",
+  "sourceVersion": "1.0.0",
+  "portableConfig": {
+    "agent": {
+      "name": "Weather Briefer",
+      "description": "",
+      "shortDescription": "Explains the forecast for any location in plain language.",
+      "defaultModel": null,
+      "allowedModels": null,
+      "searchConfig": {
+        "max_results": 5,
+        "max_candidates": 30,
+        "elbow_detection": true,
+        "min_relevance_threshold": 60,
+        "skill_fetch_instructions": ""
+      },
+      "enabledTools": [
+        "check_context",
+        "get_skill",
+        "search_skills"
+      ],
+      "revealSkillContent": false,
+      "revealRequiresPurchase": true,
+      "recommendedQueries": [
+        "What's the weather like in Austin this weekend?",
+        "Should I pack an umbrella for my trip to Seattle tomorrow?",
+        "Is it going to be hot enough to swim in Miami next week?"
+      ],
+      "searchCreditCost": "1.0000",
+      "creatorMarkup": "0.0000",
+      "license": "Apache-2.0"
+    },
+    "systemPrompt": {
+      "content": "You are a friendly meteorologist that fetches forecasts and explains them clearly."
+    },
+    "skills": [
+      {
+        "name": "Forecast Interpretation",
+        "description": "Explains how to read and interpret weather forecast data, translate meteorological information into practical everyday advice, and communicate conditions clearly to non-expert users.",
+        "domain": "general",
+        "keywords": "weather, forecast, temperature, precipitation, humidity, wind, weather interpretation, practical advice, outdoor plans, clothing recommendations, weather data",
+        "content": "# Forecast Interpretation\n\n## Reading Weather Data\n\nWhen provided raw weather data (e.g., from an API), interpret the following key fields:\n\n- **temperature_2m**: Current temperature in Celsius (or the unit returned by the API). Note if it feels hot (>30°C), comfortable (15–25°C), cool (5–14°C), or cold (<5°C).\n- **precipitation**: Rain/snow in mm. 0 = none, <2mm = light, 2–10mm = moderate, >10mm = heavy.\n- **humidity**: Percentage. >80% feels muggy; <40% feels dry.\n- **wind_speed_10m**: km/h. >30 km/h is breezy/windy; >60 km/h is strong.\n- **weather_code**: WMO code — use the standard mapping (0=Clear, 1–3=Partly cloudy, 45/48=Fog, 51–67=Rain/Drizzle, 71–77=Snow, 80–82=Showers, 95–99=Thunderstorm).\n\n## Giving Practical Advice\n\nTranslate the data into plain-language guidance:\n\n### Clothing\n- Cold (<10°C): coat, layers, scarf, gloves\n- Cool (10–15°C): light jacket, layers\n- Mild (15–22°C): comfortable layers, light jacket\n- Warm (22–28°C): T-shirt, light clothing\n- Hot (>28°C): breathable fabrics, hat, hydration\n\n### Outdoor Activities\n- Clear/light clouds + low wind = great for outdoor plans\n- Light rain (<2mm) = bring a jacket/umbrella, mostly fine\n- Heavy rain (>5mm) or thunderstorm = postpone or plan indoor alternatives\n- Snow = roads may be slippery, dress warmly, allow extra travel time\n- High wind (>40 km/h) = avoid loose items, be cautious on exposed routes\n\n### Health & Comfort\n- High humidity + high temp = feels hotter than it is (\"feels like\" temp matters)\n- Low humidity + high temp = dry air, drink more water\n- Temperature swings across the day = layer up in the morning, peel layers by afternoon\n- Early morning fog = low visibility, drive carefully\n\n## Framing the Response\n\nWhen delivering a forecast, structure it as:\n1. **What it feels like now** (one-sentence summary)\n2. **Key details** (temperature, rain, wind)\n3. **Practical tip** (what to wear / what to plan)\n4. **Heads-up** (anything notable — storm coming, big temperature drop, etc.)\n\nKeep it conversational. Avoid jargon. A user in New York asking \"should I bring a jacket?\" should get a clear yes/no with the reason.\n"
+      }
+    ],
+    "groups": [],
+    "tools": [
+      {
+        "name": "get_forecast",
+        "description": "Fetch current weather data for a given location from Open-Meteo, a free open weather API. Returns temperature, weather condition, and related current conditions.",
+        "httpMethod": "GET",
+        "baseUrl": "https://api.open-meteo.com/v1/forecast",
+        "pathTemplate": "/",
+        "queryParams": {
+          "current": "temperature_2m"
+        },
+        "headers": {},
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "latitude",
+            "longitude"
+          ],
+          "properties": {
+            "latitude": {
+              "type": "number",
+              "description": "Latitude of the location (e.g. 40.7128 for New York)."
+            },
+            "longitude": {
+              "type": "number",
+              "description": "Longitude of the location (e.g. -74.0060 for New York)."
+            }
+          }
+        },
+        "outputMapping": {},
+        "artifactTemplate": null,
+        "authMethod": "none",
+        "creditCost": "0.5000",
+        "timeoutMs": 30000,
+        "userConnectionSlot": null,
+        "userConnectionSecretTemplate": null,
+        "routes": [
+          {
+            "slug": "default",
+            "description": "Fetch current weather data for a given location from Open-Meteo, a free open weather API. Returns temperature, weather condition, and related current conditions.",
+            "httpMethod": "GET",
+            "pathTemplate": "/",
+            "paramsSchema": {
+              "type": "object",
+              "required": [
+                "latitude",
+                "longitude"
+              ],
+              "properties": {
+                "latitude": {
+                  "type": "number",
+                  "description": "Latitude of the location (e.g. 40.7128 for New York)."
+                },
+                "longitude": {
+                  "type": "number",
+                  "description": "Longitude of the location (e.g. -74.0060 for New York)."
+                }
+              }
+            },
+            "outputMapping": {},
+            "artifactTemplate": null,
+            "fieldTransforms": {},
+            "resultContext": ""
+          }
+        ]
+      }
+    ]
+  },
+  "connectionRequirements": []
+}
