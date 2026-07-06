@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "kavela.agent",
-  "exportedAt": "2026-07-05T10:30:21.207Z",
+  "exportedAt": "2026-07-06T05:43:23.609Z",
   "sourceSlug": "research-digest",
-  "sourceVersion": "1.0.0",
+  "sourceVersion": "1.0.1",
   "portableConfig": {
     "agent": {
       "name": "Research Digest",
@@ -26,12 +26,10 @@
       "revealSkillContent": false,
       "revealRequiresPurchase": true,
       "recommendedQueries": [
-        "Find recent papers on sleep deprivation and cognitive performance",
-        "What does research say about plant-based diets and heart health?",
-        "Summarize recent studies on remote work productivity effects"
+        "Find recent research on gut microbiome and anxiety, summarize key findings",
+        "What are the latest open-access studies on mRNA vaccine boosters? Include citations",
+        "Summarize recent papers about remote work productivity trends with citations"
       ],
-      "searchCreditCost": "1.0000",
-      "creatorMarkup": "0.0000",
       "license": "CC-BY-4.0"
     },
     "systemPrompt": {
