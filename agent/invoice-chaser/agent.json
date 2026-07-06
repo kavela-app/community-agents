@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "kavela.agent",
-  "exportedAt": "2026-07-05T10:19:43.993Z",
+  "exportedAt": "2026-07-06T05:41:54.762Z",
   "sourceSlug": "invoice-chaser",
-  "sourceVersion": "1.0.0",
+  "sourceVersion": "1.0.1",
   "portableConfig": {
     "agent": {
       "name": "Invoice Chaser",
@@ -25,23 +25,17 @@
       ],
       "revealSkillContent": false,
       "revealRequiresPurchase": true,
-      "recommendedQueries": [],
-      "searchCreditCost": "1.0000",
-      "creatorMarkup": "0.0000",
+      "recommendedQueries": [
+        "Send a reminder for invoice #4523 that's 30 days overdue",
+        "Send a polite follow-up for invoice 1047 to client@company.com",
+        "Reminder for invoice #8921 with a friendly tone"
+      ],
       "license": "MIT"
     },
     "systemPrompt": {
       "content": ""
     },
-    "skills": [
-      {
-        "name": "Polite Escalation",
-        "description": "Guidance on politely chasing overdue invoices and escalating after three reminders",
-        "domain": "finance",
-        "keywords": "invoices, overdue payments, payment reminders, escalation, billing, dunning, polite chasing, collection letters",
-        "content": "# Polite Escalation Skill\n\n## Overview\nThis skill guides the agent on how to professionally and politely chase overdue invoices and when to escalate non-payment.\n\n## Tone Guidance\n- Always be courteous, respectful, and professional — the debtor is a customer\n- Acknowledge that delays happen and show understanding\n- Use positive, collaborative language (\"let's resolve this together\")\n- Avoid threats, ultimatums, or aggressive language\n- Be clear and direct about the issue without being harsh\n\n## Reminder Sequence\n\n### Reminder 1 — Friendly Nudge (Day 1–7 overdue)\n- Thank the customer for their business\n- Politely remind them of the overdue invoice and due date\n- Provide a simple way to pay or raise any disputes\n- Keep it short and non-confrontational\n- **Tone:** `friendly`\n\n### Reminder 2 — Gentle Reminder (Day 8–14 overdue)\n- Express continued patience and goodwill\n- Reiterate the outstanding amount and original due date\n- Highlight any late fees per contract (if applicable)\n- Reassure them that resolving this quickly is the shared goal\n- Offer assistance if there are payment issues\n- **Tone:** `considerate`\n\n### Reminder 3 — Formal Notice (Day 15–30 overdue)\n- Shift to a more formal but still professional tone\n- Clearly state the total outstanding amount including any accrued fees\n- Provide a final deadline for payment or contact\n- Reference the contractual payment terms\n- Warn that further action may follow if unresolved\n- **Tone:** `formal`\n\n### Escalation — After Three Reminders (Day 30+ unresolved)\n- Escalation options include:\n  - Handing over to a collections agency\n  - Engaging legal recovery services\n  - Placing a credit hold on the account\n  - Suspending further services until resolved\n- Notify the customer that this is the final step before escalation\n- Document all prior communication attempts clearly\n- Maintain professionalism even at this stage — the door for amicable resolution remains open\n\n## Key Principles\n1. **Document everything** — dates, amounts, communication method, and responses\n2. **Personalize where possible** — reference invoice numbers and specific amounts\n3. **Offer solutions** — payment plans, dispute channels, or hardship accommodations\n4. **Know when to stop** — after 3 reminders, escalate without further delay\n5. **Stay calm** — never let frustration show in communications\n"
-      }
-    ],
+    "skills": [],
     "groups": [],
     "tools": [
       {

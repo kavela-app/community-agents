@@ -10,9 +10,9 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **14** | **187** | **2** |
+| **2** | **3** | **14** | **186** | **2** |
 
-*Last synced: 2026-07-05*
+*Last synced: 2026-07-06*
 
 </div>
 
@@ -56,7 +56,7 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 - [**Commercial Lease Analyst**](agents/lease-analyst/) *(workspace)* -4 skills -by Yong
 - [**Content Calendar Operator**](agents/content-cal-op-1779866531170/) *(workspace)* -5 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser-1779867688902/) *(workspace)* -7 skills -by Yong
-- [**Invoice Chaser**](agents/invoice-chaser/) *(workspace)* -1 skills -by Yong
+- [**Invoice Chaser**](agents/invoice-chaser/) *(workspace)* -0 skills -by Yong
 - [**Kavela**](agents/kavela-workspace/) *(workspace)* -92 skills -by Yong
 - [**Research Digest**](agents/research-digest/) *(workspace)* -0 skills -by Yong
 - [**Reservations Concierge**](agents/reservations-concierge/) *(workspace)* -3 skills -by Yong
