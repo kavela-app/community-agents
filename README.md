@@ -10,9 +10,9 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **14** | **186** | **2** |
+| **2** | **3** | **20** | **192** | **2** |
 
-*Last synced: 2026-07-06*
+*Last synced: 2026-07-18*
 
 </div>
 
@@ -52,12 +52,18 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 
 ### Agents
 
+- [**A bug-triage agent: read a new GitHub issue, search the repo**](agents/a-bug-triage-agent-read-a-new-github-issue-search-the-repo/) *(workspace)* -0 skills -by Yong
 - [**Board Update Builder**](agents/board-update-1779868139797/) *(workspace)* -8 skills -by Yong
+- [**Coffee Shop Builder Agent**](agents/coffee-shop-builder-agent-flint-uzc7/) *(workspace)* -1 skills -by Yong
+- [**Coffee Shop Launcher**](agents/coffee-shop-launcher-otter-qhl9/) *(workspace)* -0 skills -by Yong
 - [**Commercial Lease Analyst**](agents/lease-analyst/) *(workspace)* -4 skills -by Yong
+- [**Community Telegram Bot**](agents/community-telegram-bot/) *(workspace)* -0 skills -by Yong
 - [**Content Calendar Operator**](agents/content-cal-op-1779866531170/) *(workspace)* -5 skills -by Yong
+- [**Design Scout Agent**](agents/design-scout-agent-aspen-bb8x/) *(workspace)* -5 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser-1779867688902/) *(workspace)* -7 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser/) *(workspace)* -0 skills -by Yong
 - [**Kavela**](agents/kavela-workspace/) *(workspace)* -92 skills -by Yong
+- [**Market Research Analyst**](agents/market-research-analyst/) *(workspace)* -0 skills -by Yong
 - [**Research Digest**](agents/research-digest/) *(workspace)* -0 skills -by Yong
 - [**Reservations Concierge**](agents/reservations-concierge/) *(workspace)* -3 skills -by Yong
 - [**Test Agent**](agents/test-agent-e2e/) *(workspace)* -5 skills -by Crystara
