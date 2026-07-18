@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "kavela.agent",
-  "exportedAt": "2026-07-06T05:42:33.953Z",
+  "exportedAt": "2026-07-18T14:00:07.835Z",
   "sourceSlug": "weather-briefer",
   "sourceVersion": "1.0.1",
   "portableConfig": {
