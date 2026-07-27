@@ -10,7 +10,7 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **24** | **194** | **2** |
+| **2** | **3** | **23** | **194** | **2** |
 
 *Last synced: 2026-07-27*
 
@@ -60,7 +60,6 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 - [**Community Telegram Bot**](agents/community-telegram-bot/) *(workspace)* -0 skills -by Yong
 - [**Content Calendar Operator**](agents/content-cal-op-1779866531170/) *(workspace)* -5 skills -by Yong
 - [**Design Scout Agent**](agents/design-scout-agent-aspen-bb8x/) *(workspace)* -5 skills -by Yong
-- [**DFORK3 Mirror Fixture**](agents/dfork3-mirror-fixture/) *(workspace)* -0 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser-1779867688902/) *(workspace)* -7 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser/) *(workspace)* -0 skills -by Yong
 - [**Kavela**](agents/kavela-workspace/) *(workspace)* -92 skills -by Yong
