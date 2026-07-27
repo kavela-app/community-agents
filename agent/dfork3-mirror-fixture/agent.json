@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "kind": "kavela.agent",
+  "exportedAt": "2026-07-27T15:08:50.699Z",
+  "sourceSlug": "dfork3-mirror-fixture",
+  "sourceVersion": "1.0.0",
+  "portableConfig": {
+    "agent": {
+      "name": "DFORK3 Mirror Fixture",
+      "description": "D-FORK-3 reconciler verification fixture",
+      "shortDescription": "D-FORK-3 reconciler verification fixture",
+      "defaultModel": null,
+      "allowedModels": null,
+      "searchConfig": {
+        "max_results": 5,
+        "max_candidates": 30,
+        "elbow_detection": true,
+        "min_relevance_threshold": 60,
+        "skill_fetch_instructions": ""
+      },
+      "enabledTools": [
+        "check_context",
+        "get_skill",
+        "search_skills"
+      ],
+      "revealSkillContent": false,
+      "revealRequiresPurchase": true,
+      "recommendedQueries": [],
+      "license": "MIT"
+    },
+    "systemPrompt": {
+      "content": "You are a fixture agent used to verify the github-mirror reconciler."
+    },
+    "skills": [],
+    "groups": [],
+    "tools": []
+  },
+  "connectionRequirements": []
+}

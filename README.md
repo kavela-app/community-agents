@@ -10,9 +10,9 @@ Every free skill, group, and workspace published on Kavela is automatically sync
 
 | Skills | Groups | Workspaces | Skill Files | Contributors |
 |:------:|:------:|:----------:|:-----------:|:------------:|
-| **2** | **3** | **20** | **192** | **2** |
+| **2** | **3** | **24** | **194** | **2** |
 
-*Last synced: 2026-07-18*
+*Last synced: 2026-07-27*
 
 </div>
 
@@ -60,10 +60,13 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 - [**Community Telegram Bot**](agents/community-telegram-bot/) *(workspace)* -0 skills -by Yong
 - [**Content Calendar Operator**](agents/content-cal-op-1779866531170/) *(workspace)* -5 skills -by Yong
 - [**Design Scout Agent**](agents/design-scout-agent-aspen-bb8x/) *(workspace)* -5 skills -by Yong
+- [**DFORK3 Mirror Fixture**](agents/dfork3-mirror-fixture/) *(workspace)* -0 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser-1779867688902/) *(workspace)* -7 skills -by Yong
 - [**Invoice Chaser**](agents/invoice-chaser/) *(workspace)* -0 skills -by Yong
 - [**Kavela**](agents/kavela-workspace/) *(workspace)* -92 skills -by Yong
+- [**Lead Qualifier Agent**](agents/lead-qualifier-agent-flint-m728/) *(workspace)* -0 skills -by Yong
 - [**Market Research Analyst**](agents/market-research-analyst/) *(workspace)* -0 skills -by Yong
+- [**PHI Stretch Coach**](agents/phi-stretch-coach/) *(workspace)* -0 skills -by Yong
 - [**Research Digest**](agents/research-digest/) *(workspace)* -0 skills -by Yong
 - [**Reservations Concierge**](agents/reservations-concierge/) *(workspace)* -3 skills -by Yong
 - [**Test Agent**](agents/test-agent-e2e/) *(workspace)* -5 skills -by Crystara
@@ -71,6 +74,7 @@ You never need to manually edit this repo -it's a living mirror of the marketpla
 - [**Theta Sync Test**](agents/theta-sync-test-1783147925/) *(workspace)* -0 skills -by Yong
 - [**W8 Publish Test**](agents/w8-publish-test/) *(workspace)* -2 skills -by Yong
 - [**Weather Briefer**](agents/weather-briefer/) *(workspace)* -1 skills -by Yong
+- [**Ѕupra Аgent**](agents/redteam-sandbox-2/) *(workspace)* -2 skills -by Yong
 
 ### Docs
 
